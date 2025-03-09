@@ -4,9 +4,20 @@ import Card from './components/card/card';
 function App() {
   return (
     <>
-      <Card title='Titulo card 1'/>
-      <Card title='Titulo card 2'/>
-      <Card title='Titulo card 3'/>
+      <Card>
+        <h3>TItulo card 1</h3>
+        <p>Esse é um texto do card 1</p>
+      </Card>
+      <Card>
+      <h3>TItulo card 2</h3>
+      <p>Esse é um texto do card 2</p>
+      </Card>
+
+      <Card>
+      <h3>TItulo card 3</h3>
+      <p>Esse é um texto do card 3</p>
+      </Card>
+
     </>
   );
 }
