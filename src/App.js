@@ -4,20 +4,9 @@ import Card from './components/card/card';
 function App() {
   return (
     <>
-      <Card>
-        <h3>TItulo card 1</h3>
-        <p>Esse é um texto do card 1</p>
-      </Card>
-      <Card>
-      <h3>TItulo card 2</h3>
-      <p>Esse é um texto do card 2</p>
-      </Card>
-
-      <Card>
-      <h3>TItulo card 3</h3>
-      <p>Esse é um texto do card 3</p>
-      </Card>
-
+      <Card title="Esse é o primeiro card" description="Esse card é maneiro"/>
+      <Card title="Esse é o segundo card" description="Esse card é lightcoral"/>
+      <Card title="Esse é o terceiro card" description="Esse card é personalizado"/>
     </>
   );
 }

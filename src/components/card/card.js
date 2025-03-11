@@ -1,10 +1,13 @@
 import React from "react";
 import "./card.css";
+import Button from "../button/button";
 
-const Card = ({children}) => {
+const Card = ({title, description}) => {
     return (
         <div className="card">
-            {children}
+            <h1>{title}</h1>
+            <p>{description}</p>
+            <Button/>
         </div>
     );
 }
